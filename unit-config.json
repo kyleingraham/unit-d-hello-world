@@ -1,0 +1,13 @@
+{
+    "listeners": {
+        "*:8081": {
+            "pass": "applications/unit-d-hello-world"
+        }
+    },
+    "applications": {
+        "unit-d-hello-world": {
+            "type": "external",
+            "executable": "<dub output directory>/unit-d-hello-world"
+        }
+    }
+}

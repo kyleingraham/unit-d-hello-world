@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/unit-d-hello-world
+unit-d-hello-world.so
+unit-d-hello-world.dylib
+unit-d-hello-world.dll
+unit-d-hello-world.a
+unit-d-hello-world.lib
+unit-d-hello-world-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+dub.selections.json
